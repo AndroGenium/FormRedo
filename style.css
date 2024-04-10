@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+textarea{
+    display: flex;
+    resize: none;
+
+    border: 1px dotted rgb(164, 160, 160);;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    overflow: none;
+}
+.div{
+    display: flex;
+    flex-flow: column nowrap;
+    border: 1px dotted rgb(164, 160, 160);;
+    width: fit-content;
+}
+
+#ddiv{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 5px;
+    border: 1px dotted rgb(164, 160, 160);;
+}
+#div{
+    width: 610px;
+    display: flex;
+    align-content: center;
+}
+form{
+    display: flex;
+
+    width: 1000px;
+    justify-content: space-between;
+}
+
+#text{
+    justify-self: flex-end;
+    align-self: flex-end;
+    width: 593px;
+}
+
+label{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 5px;
+    border: 1px dotted rgb(164, 160, 160);
+    width: 390px;
+}
+
+button{
+    width: 110px;
+    height: 40px;
+    border-radius: 10px;
+    align-self: center;
+    margin-left: 5px;
+}
+
+.bruh{
+    width: 390px;
+    height: 54px;
+
+}
+#skibidi{
+    border-right: 1px dotted rgb(164, 160, 160);
+}
+
+
+
